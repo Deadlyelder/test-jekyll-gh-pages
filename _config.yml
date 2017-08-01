@@ -42,7 +42,7 @@ ponentes:
   - name: Nombre Ponente 4
     text: Texto Ponente 4
     image: fa-shield
- -  name: Nombre Ponente 12
+  - name: Nombre Ponente 12
     text: Texto Ponente 12
     image: fa-cloud
   - name: Nombre Ponente 22
