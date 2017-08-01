@@ -29,16 +29,20 @@ markdown: kramdown
 theme: jekyll-theme-cayman
 
 #List for test
-collections:
-  articles:
-    output: true
-    title: Articles
-  essays:
-    output: true
-    title: Academic Essays
-  presentations:
-    output: true
-    title: Presentations
-  projects:
-    output: true
-    title: Projects
+ponentes:
+  ponente 1:
+    nombre: Nombre Ponente 1
+    texto: Texto Ponente 1
+    imagen: Imagen Ponente 1
+  ponente 2:
+    nombre: Nombre Ponente 2
+    texto: Texto Ponente 2
+    imagen: Imagen Ponente 2
+  ponente 3:
+    nombre: Nombre Ponente 3
+    texto: Texto Ponente 3
+    imagen: Imagen Ponente 3
+  ponente 4:
+    nombre: Nombre Ponente 4
+    texto: Texto Ponente 4
+    imagen: Imagen Ponente 4
