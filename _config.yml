@@ -30,19 +30,19 @@ theme: jekyll-theme-cayman
 
 #List for test
 ponentes:
-  ponente 1:
+  ponente1:
     name: Nombre Ponente 1
     text: Texto Ponente 1
     image: fa-cloud
-  ponente 2:
+  ponente2:
     name: Nombre Ponente 2
     text: Texto Ponente 2
     image: fa-compass
-  ponente 3:
+  ponente3:
     name: Nombre Ponente 3
     text: Texto Ponente 3
     image: fa-flask
-  ponente 4:
+  ponente4:
     name: Nombre Ponente 4
     text: Texto Ponente 4
     image: fa-shield
