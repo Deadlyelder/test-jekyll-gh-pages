@@ -27,3 +27,18 @@ google_api_key:
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
+
+#List for test
+collections:
+  articles:
+    output: true
+    title: Articles
+  essays:
+    output: true
+    title: Academic Essays
+  presentations:
+    output: true
+    title: Presentations
+  projects:
+    output: true
+    title: Projects
