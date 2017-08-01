@@ -5,11 +5,11 @@
       <div class="col-lg-10 col-lg-offset-1">
         <h2>Lista de Ponentes</h2>
         <hr class="small">
-        <div class="row">
-          <ul>
-        {% for ponente in site.ponentes %}
-            <li>
-          <div class="col-md-3 col-sm-6">
+        {% for post in site.posts %}
+          {% assign loopindex = forloop.index | modulo: 2 %}
+          {% if loopindex == 1 %}
+            <div class="row">
+            <div class="col-md-3 col-sm-6">
             <div class="test-item">
               <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x"></i>
@@ -22,12 +22,38 @@
               <a href="#" class="btn btn-light">Learn More</a>
             </div>
           </div>
-            </li>
+          {% elsif loopindex == 4 %}
+              <div class="col-md-3 col-sm-6">
+            <div class="test-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa {{ ponente.image }} fa-stack-1x text-primary"></i>
+            </span>
+              <h4>
+                <strong>{{ ponente.name }}</strong>
+              </h4>
+              <p>{{ ponente.text }}</p>
+              <a href="#" class="btn btn-light">Learn More</a>
+            </div>
+          </div>
+        </div>
+          {% else %}
+              <div class="col-md-3 col-sm-6">
+            <div class="test-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa {{ ponente.image }} fa-stack-1x text-primary"></i>
+            </span>
+              <h4>
+                <strong>{{ ponente.name }}</strong>
+              </h4>
+              <p>{{ ponente.text }}</p>
+              <a href="#" class="btn btn-light">Learn More</a>
+            </div>
+          </div>
+          {% endif %}
         {% endfor %}
         
-          </ul>
-        </div>
-        <!-- /.row (nested) -->
       </div>
       <!-- /.col-lg-10 -->
     </div>
