@@ -54,15 +54,6 @@ ponentes:
   - name: Nombre Ponente 42
     text: Texto Ponente 42
     image: fa-shield
-     - name: Nombre Ponente 13
+   - name: Nombre Ponente 13
     text: Texto Ponente 13
     image: fa-cloud
-  - name: Nombre Ponente 23
-    text: Texto Ponente 23
-    image: fa-compass
-  - name: Nombre Ponente 33
-    text: Texto Ponente 33
-    image: fa-flask
-  - name: Nombre Ponente 43
-    text: Texto Ponente 43
-    image: fa-shield
