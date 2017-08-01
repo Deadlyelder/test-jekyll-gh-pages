@@ -42,3 +42,27 @@ ponentes:
   - name: Nombre Ponente 4
     text: Texto Ponente 4
     image: fa-shield
+ - name: Nombre Ponente 1
+    text: Texto Ponente 1
+    image: fa-cloud
+  - name: Nombre Ponente 2
+    text: Texto Ponente 2
+    image: fa-compass
+  - name: Nombre Ponente 3
+    text: Texto Ponente 3
+    image: fa-flask
+  - name: Nombre Ponente 4
+    text: Texto Ponente 4
+    image: fa-shield
+     - name: Nombre Ponente 1
+    text: Texto Ponente 1
+    image: fa-cloud
+  - name: Nombre Ponente 2
+    text: Texto Ponente 2
+    image: fa-compass
+  - name: Nombre Ponente 3
+    text: Texto Ponente 3
+    image: fa-flask
+  - name: Nombre Ponente 4
+    text: Texto Ponente 4
+    image: fa-shield
