@@ -6,7 +6,9 @@
         <h2>Lista de Ponentes</h2>
         <hr class="small">
         <div class="row">
+          <ul>
         {% for ponente in site.ponentes %}
+            <li>
           <div class="col-md-3 col-sm-6">
             <div class="test-item">
               <span class="fa-stack fa-4x">
@@ -20,9 +22,10 @@
               <a href="#" class="btn btn-light">Learn More</a>
             </div>
           </div>
+            </li>
         {% endfor %}
         
-          
+          </ul>
         </div>
         <!-- /.row (nested) -->
       </div>
