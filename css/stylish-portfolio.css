@@ -237,6 +237,16 @@ hr.small {
     pointer-events: none;
 }
 
+/* Test */
+
+.test {
+    padding: 50px 0;
+}
+
+.test-item {
+    margin-bottom: 30px;
+}
+
 /* Footer */
 
 footer {
